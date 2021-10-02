@@ -1,0 +1,34 @@
+{
+  "name": "logography",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.0-next.0",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+    "@tsconfig/svelte": "^2.0.1",
+    "svelte": "^3.37.0",
+    "svelte-check": "^2.1.0",
+    "svelte-preprocess": "^4.7.2",
+    "tslib": "^2.2.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.0"
+  },
+  "dependencies": {
+    "@fontsource/benchnine": "^4.5.0",
+    "@fontsource/bodoni-moda": "^4.5.0",
+    "@fontsource/chunk-five": "^4.5.0",
+    "@fontsource/cormorant": "^4.5.0",
+    "@fontsource/cormorant-upright": "^4.5.0",
+    "@fontsource/fanwood-text": "^4.5.0",
+    "@fontsource/geo": "^4.5.0",
+    "@fontsource/gravitas-one": "^4.5.0",
+    "@fontsource/league-gothic": "^4.5.0",
+    "@fontsource/league-spartan": "^4.5.0"
+  }
+}
